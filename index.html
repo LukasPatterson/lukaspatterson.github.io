@@ -2,86 +2,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lukas Patterson | Official Artist Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lukas Patterson | Official Site</title>
     <style>
         body {
-            margin: 0;
-            background: #0d0d0d;
+            background-color: #0b0b0b;
             color: #fff;
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
             text-align: center;
         }
         header {
-            background: url('header.jpg') no-repeat center center;
-            background-size: cover;
-            height: 400px;
+            padding: 2rem;
+            background: radial-gradient(#1a0000, #0b0b0b);
+        }
+        img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            box-shadow: 0 0 20px red;
+            margin-top: 10px;
         }
         h1 {
-            margin-top: 20px;
-            font-size: 2.5em;
+            font-size: 2.8em;
+            margin: 0.3em 0 0.1em 0;
         }
-        .bio {
+        p.bio {
             max-width: 700px;
-            margin: 20px auto;
+            margin: 0 auto 30px auto;
             font-size: 1.1em;
+            padding: 0 15px;
         }
-        .links {
-            margin: 30px 0;
-        }
-        .links a {
-            display: inline-block;
-            margin: 10px;
+        .links a, .contact a {
+            display: block;
+            margin: 10px auto;
             padding: 12px 20px;
             background: #ff0033;
             color: #fff;
             text-decoration: none;
-            border-radius: 4px;
+            border-radius: 6px;
+            width: 260px;
+            font-weight: bold;
             transition: background 0.3s;
         }
-        .links a:hover {
+        .links a:hover, .contact a:hover {
             background: #cc0029;
         }
-        iframe {
-            margin-top: 30px;
-            width: 90%;
-            max-width: 560px;
-            height: 315px;
-            border: none;
+        .music-samples {
+            margin-top: 40px;
+        }
+        .music-samples h2 {
+            margin-bottom: 10px;
+        }
+        audio {
+            margin: 10px auto;
+            display: block;
+        }
+        .contact {
+            margin-top: 40px;
         }
         footer {
-            margin: 40px 0;
-            font-size: 0.9em;
+            margin-top: 50px;
+            padding: 20px;
+            font-size: 0.85em;
             color: #888;
         }
     </style>
 </head>
 <body>
-
-<header></header>
-
-<h1>Lukas Patterson</h1>
-<div class="bio">
-    Alt-rock from Southwest Virginia. Dreamy shoegaze textures, crushing riffs, and 80s synth scars. 
-    New album <strong>The Black Tile Sessions, Vol. 1</strong> out July 25.
-</div>
+<header>
+    <img src="lukas-headshot.jpg" alt="Lukas Patterson" />
+    <h1>Lukas Patterson</h1>
+    <p class="bio">
+        Southwest Virginia native Lukas Patterson fuses crushing riffs, dreamy shoegaze textures, and retro 80s synth tones into a sound that hits as hard as it haunts.
+        As a former touring guitarist and now solo artist, Lukas brings cinematic weight to modern rock. Always writing, always building, and always stoked to talk music.
+    </p>
+</header>
 
 <div class="links">
+    <a href="https://open.spotify.com/artist/3uQq07gLHAu0fus1I88BW7" target="_blank">🔊 Listen on Spotify</a>
     <a href="https://music.apple.com/us/artist/lukas-patterson/1711127467" target="_blank">🍏 Apple Music</a>
-    <a href="https://open.spotify.com/artist/3uQq07gLHAu0fus1I88BW7?si=U-jDvmEPRsyKLwFCNSGqjg" target="_blank">🔊 Spotify</a>
-    <a href="https://music.youtube.com/watch?v=7k7IOo-hdG8" target="_blank">📺 YouTube Music</a>
+    <a href="https://music.youtube.com/channel/UC1YkDRNxUzSw_1YDJkVnH4w" target="_blank">📺 YouTube Music</a>
     <a href="https://www.instagram.com/Lukas_limbless" target="_blank">📸 Instagram</a>
+    <a href="https://www.twitter.com/luke20rock" target="_blank">🐦 Twitter</a>
     <a href="https://www.tiktok.com/@lukaslimbless" target="_blank">🎵 TikTok</a>
-    <a href="https://www.twitter.com/luke20rock" target="_blank">🐦 Twitter / X</a>
     <a href="https://www.facebook.com/share/w5Bfg9mNkGUAHLCC/?mibextid=wwXIfr" target="_blank">📘 Facebook</a>
 </div>
 
-<iframe src="https://www.youtube.com/embed/7k7IOo-hdG8" allowfullscreen></iframe>
+<div class="music-samples">
+    <h2>🎧 Music Samples</h2>
+    <audio controls><source src="sample1.mp3" type="audio/mpeg">Audio not supported</audio>
+    <audio controls><source src="sample2.mp3" type="audio/mpeg">Audio not supported</audio>
+</div>
+
+<div class="contact">
+    <h2>💬 Get in Touch</h2>
+    <p>I'm always around and happy to talk music.</p>
+    <a href="https://m.me/LukasPattersonMusic" target="_blank">📩 Message Me on Facebook</a>
+</div>
 
 <footer>
     &copy; 2025 Lukas Patterson. All rights reserved.
 </footer>
-
 </body>
 </html>
