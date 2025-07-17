@@ -9,80 +9,86 @@
     body {
       margin: 0;
       font-family: 'Courier New', monospace;
-      background: #0a0a0a;
-      color: #e6e6e6;
-      text-align: center;
-      background-image: radial-gradient(circle at top left, #1a1a1a, #000);
+      background-color: #0d0d0d;
+      color: #eaeaea;
+      background-image: url('https://grainy-gradients.vercel.app/noise.svg');
+      background-blend-mode: overlay;
+      background-size: cover;
+      background-repeat: repeat;
     }
 
     .hero {
+      display: block;
       max-width: 100%;
       height: auto;
-      display: block;
-      margin: 0 auto;
-      border: 4px solid #ff003c;
-      box-shadow: 0 0 40px rgba(255, 0, 60, 0.6);
-      border-radius: 8px;
-    }
-
-    section {
-      padding: 2rem 1rem;
-      max-width: 850px;
-      margin: auto;
+      border: 4px solid #8B0000;
+      box-shadow: 0 0 60px rgba(139, 0, 0, 0.7);
     }
 
     h2 {
-      margin-top: 2rem;
       font-size: 2rem;
-      color: #ff1aff;
-      text-shadow: 0 0 8px rgba(255, 26, 255, 0.4);
+      color: #ff3333;
+      text-transform: uppercase;
+      margin-top: 2rem;
+      text-shadow: 2px 2px 5px black;
     }
 
     p {
+      font-size: 1.05rem;
       line-height: 1.6;
-      font-size: 1.1rem;
+      max-width: 750px;
+      margin: auto;
       color: #ccc;
+      padding: 1rem;
     }
 
     .button {
       display: inline-block;
-      background: #ff0055;
-      padding: 1rem 2rem;
-      border-radius: 6px;
+      padding: 1rem 1.5rem;
+      margin: 0.5rem;
+      background-color: #8B0000;
       color: white;
       text-decoration: none;
-      font-size: 1.1rem;
-      margin: 0.5rem;
+      border: 2px solid #ff0000;
+      text-transform: uppercase;
+      letter-spacing: 1px;
       transition: 0.3s;
     }
 
     .button:hover {
-      background: #ff3399;
-      box-shadow: 0 0 15px #ff3399;
+      background-color: #ff0000;
+      border-color: #8B0000;
+      box-shadow: 0 0 10px red;
     }
 
     iframe {
       margin-top: 2rem;
       border: none;
       border-radius: 12px;
-      width: 320px;
+      width: 300px;
       height: 380px;
-      box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+      box-shadow: 0 0 25px rgba(255, 0, 0, 0.2);
     }
+
+    section {
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
   </style>
 </head>
 <body>
 
-  <img src="lukas-slash-headshot.png" alt="Lukas Stylized" class="hero" />
+  <img src="lukas-slash-headshot.png" alt="Lukas Patterson Stylized" class="hero" />
 
   <section>
     <h2>Synthwave • Heavy Rock</h2>
-    <p>Southwest Virginia native Lukas Patterson fuses crushing riffs, dreamy shoegaze textures, and retro 80s synth tones into a sound that hits as hard as it haunts. Formerly the lead shredder of Star City Meltdown, Lukas toured with acts like Korn, Skid Row, and 10 Years. Now, he's solo — shaping a dark cinematic atmosphere through 7- and 8-string guitars, slap rhythms, and deep emotional hooks.</p>
+    <p>Southwest Virginia native Lukas Patterson fuses crushing riffs, dreamy shoegaze textures, and retro 80s synth tones into a sound that hits as hard as it haunts. Formerly of Star City Meltdown, Lukas brings cinematic darkness and precision to every track — built on 7- and 8-string guitars, lush synths, and atmospheric breakdowns.</p>
   </section>
 
   <section>
     <h2>Listen</h2>
-    <a href="https://open.spotify.com/artist/3uQq07gLHAu0fus1I88BW7" class="button" target="_blank">Listen on Spotify</a>
+    <a href="https://open.spotify.com/artist/3uQq07gLHAu0fus1I88BW7" class="button" target="_blank">Spotify</a>
     <a href="https://music.apple.com/us/artist/lukas-patterson/1711127467" class="button" target="_blank">Apple Music</a>
     <a href="https://music.youtube.com/channel/UCYyzMr3CmzXZvrcbybsHxWA" class="button" target="_blank">YouTube Music</a>
     <a href="https://distrokid.com/hyperfollow/lukaspatterson/the-black-tile-sessions-vol-1" class="button" target="_blank">Pre-Save Album</a>
