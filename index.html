@@ -8,38 +8,56 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="hero-section">
-        <div class="hero-container">
-            <img src="album-cover.png" alt="The Black Tile Sessions Vol. 1" class="album-art-top">
-            <h1 class="album-title">The Black Tile Sessions Vol. 1</h1>
-            <a href="https://distrokid.com/hyperfollow/lukaspatterson/the-black-tile-sessions-vol-1/" class="btn" target="_blank">Pre-Save / Listen Now</a>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#bio">About</a></li>
+            <li><a href="#music">Music</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#connect">Connect</a></li>
+        </ul>
+    </nav>
+
+    <header id="hero" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>The Black Tile Sessions Vol. 1</h1>
+            <a href="https://distrokid.com/hyperfollow/lukaspatterson/the-black-tile-sessions-vol-1/" class="btn-glow" target="_blank">Pre-Save / Stream Now</a>
         </div>
     </header>
 
-    <section class="audio-player">
-        <h2>Listen on Spotify</h2>
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/3uQq07gLHAu0fus1I88BW7?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-    </section>
-
-    <section class="bio">
+    <section id="bio" class="bio">
         <img src="bio-photo.jpeg" alt="Lukas Patterson">
-        <div class="bio-text">
+        <div>
             <h2>About Lukas</h2>
             <p>Lukas Patterson blends synthwave, heavy rock, and shoegaze into a cinematic sound that hits as hard as it haunts. As the former lead guitarist of Star City Meltdown, he toured nationally throughout the 2010s alongside bands like Korn, Crossfade, Saliva, 10 Years, and Pop Evil—bringing lead guitar back to modern rock with full shred.</p>
             <p>Now operating as a solo artist and producer, Lukas pushes the boundaries of alternative rock with immersive atmospheres, crushing 7- and 8-string guitar riffs, and vintage-inspired synths. Every release reflects a deep love for melody, drama, and unapologetic heaviness.</p>
         </div>
     </section>
 
-    <section class="links">
+    <section id="music" class="streaming">
+        <h2>Listen</h2>
+        <div class="link-buttons">
+            <a href="https://open.spotify.com/artist/3uQq07gLHAu0fus1I88BW7?si=U-jDvmEPRsyKLwFCNSGqjg" target="_blank" class="btn-icon">🎧 Spotify</a>
+            <a href="https://music.apple.com/us/artist/lukas-patterson/1711127467" target="_blank" class="btn-icon">🍎 Apple Music</a>
+        </div>
+    </section>
+
+    <section id="video" class="video">
+        <h2>Watch</h2>
+        <div class="youtube-wrapper">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/cVA7OHmSE6o" title="YouTube video" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="connect" class="links">
         <h2>Connect</h2>
-        <ul>
-            <li><a href="https://open.spotify.com/artist/3uQq07gLHAu0fus1I88BW7?si=U-jDvmEPRsyKLwFCNSGqjg" target="_blank">Spotify</a></li>
-            <li><a href="https://music.apple.com/us/artist/lukas-patterson/1711127467" target="_blank">Apple Music</a></li>
-            <li><a href="https://www.instagram.com/Lukas_limbless" target="_blank">Instagram</a></li>
-            <li><a href="https://www.twitter.com/luke20rock" target="_blank">Twitter</a></li>
-            <li><a href="https://www.tiktok.com/@lukaslimbless" target="_blank">TikTok</a></li>
-            <li><a href="https://www.facebook.com/share/w5Bfg9mNkGUAHLCC/?mibextid=wwXIfr" target="_blank">Facebook / Messenger</a></li>
-        </ul>
+        <div class="link-buttons">
+            <a href="https://www.instagram.com/Lukas_limbless" target="_blank" class="btn-icon">📸 Instagram</a>
+            <a href="https://www.twitter.com/luke20rock" target="_blank" class="btn-icon">🐦 Twitter</a>
+            <a href="https://www.tiktok.com/@lukaslimbless" target="_blank" class="btn-icon">🎵 TikTok</a>
+            <a href="https://www.facebook.com/share/w5Bfg9mNkGUAHLCC/?mibextid=wwXIfr" target="_blank" class="btn-icon">💬 Message Me</a>
+        </div>
     </section>
 
     <footer>
