@@ -113,3 +113,36 @@ footer {
     background: #111;
     color: #777;
 }
+
+.hero-album-image {
+    max-width: 280px;
+    margin-bottom: 20px;
+    border: 4px solid crimson;
+    border-radius: 8px;
+}
+.hero-headline {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.btn-outline {
+    padding: 12px 24px;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+.btn-outline:hover {
+    background: white;
+    color: #000;
+}
