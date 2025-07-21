@@ -1,1 +1,96 @@
-This is a placeholder for style.css
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #000;
+  color: #fff;
+}
+
+.navbar {
+  background: #000;
+  text-align: center;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: #111;
+  padding: 40px 20px;
+  text-align: center;
+  position: relative;
+}
+
+.hero-album-image-glow {
+  max-width: 300px;
+  border-radius: 4px;
+  box-shadow: 0 0 40px 15px #ff0077;
+  margin-bottom: 20px;
+}
+
+.hero-headline {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.hero-buttons a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 2px solid #ff0077;
+  border-radius: 5px;
+  color: #ff0077;
+}
+
+.btn-glow {
+  background: #ff0077;
+  color: #000;
+  font-weight: bold;
+  box-shadow: 0 0 10px #ff0077;
+}
+
+.btn-outline {
+  background: transparent;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.bio-photo {
+  max-width: 200px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.streaming, .video, .links {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.link-buttons a {
+  display: inline-block;
+  margin: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
